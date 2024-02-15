@@ -12,6 +12,7 @@ import com.example.movies_application.Model.MovieModel
 
 class MovieListActivity : AppCompatActivity() {
 
+
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
