@@ -49,7 +49,7 @@ class SingleItemActivity : AppCompatActivity() {
                         .into(imageViewPoster)
                     textViewTitle.text = movieModel.Title
                     textViewYear.text = "Year: ${movieModel.Year}"
-                    // Add similar lines for other details yedi nandini
+
 
                     textViewImdbRating.text = "IMDb: ${movieModel.Ratings[0].Value}"
                     textViewRottenTomatoesRating.text =
